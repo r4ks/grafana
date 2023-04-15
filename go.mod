@@ -286,6 +286,8 @@ require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
 	github.com/armon/go-metrics v0.4.1 // indirect
+	github.com/asticode/go-astikit v0.39.0 // indirect
+	github.com/asticode/go-astilectron v0.29.0 // indirect
 	github.com/bmatcuk/doublestar v1.1.1 // indirect
 	github.com/buildkite/yaml v2.1.0+incompatible // indirect
 	github.com/containerd/containerd v1.6.8 // indirect
