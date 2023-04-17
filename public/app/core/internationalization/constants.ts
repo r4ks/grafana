@@ -4,6 +4,7 @@ export const ENGLISH_US = 'en-US';
 export const FRENCH_FRANCE = 'fr-FR';
 export const SPANISH_SPAIN = 'es-ES';
 export const GERMAN_GERMANY = 'de-DE';
+export const TURKISH_TURKEY = 'tr-TR';
 export const CHINESE_SIMPLIFIED = 'zh-Hans';
 export const PSEUDO_LOCALE = 'pseudo-LOCALE';
 
@@ -21,6 +22,11 @@ interface LanguageDefinitions {
 }
 
 export const LANGUAGES: LanguageDefinitions[] = [
+  {
+    code: TURKISH_TURKEY,
+    name: 'Türkçe',
+    loader: () => import('../../../locales/tr-TR/grafana.json'),
+  },
   {
     code: ENGLISH_US,
     name: 'English',
